@@ -149,7 +149,7 @@ const Footer = () => {
         </div>
       </div>
       <div className={styles.copyrightWrapper}>
-        <p>Copyright © 2021 Jayaho.io</p>
+        <p>Copyright © 2021 Nvedika.com</p>
         <p>
           Contact: <a href="mailto:namaste@jayaho.io">namaste@jayaho.io</a>
         </p>

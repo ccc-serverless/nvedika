@@ -1,11 +1,17 @@
 import React from "react";
 import styles from "./BundleContainer.module.scss";
 
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Pagination, Autoplay } from "swiper/modules";
+import SwiperCore from "swiper";
+
 import clsx from "clsx";
 
 import CourseCard from "./CourseCard";
 import InfoCourseCard from "./InfoCourseCard";
 import CourseCardsBusiness from "./CourseCardsBusiness";
+
+SwiperCore.use([Pagination, Autoplay]);
 
 export default function BundleContainer({ options, bundle }) {
   const { showHeadingSlide, allowSwipe, type } = options;

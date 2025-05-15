@@ -133,9 +133,9 @@ export function BundleCoursesContextProvider({ children }) {
     getCourseDetails,
   };
 
-  useEffect(() => {
-    getBundleAndCourses();
-  }, []);
+  // useEffect(() => {
+  //   getBundleAndCourses();
+  // }, []);
   return (
     <BundleCoursesContext.Provider value={value}>
       {children}

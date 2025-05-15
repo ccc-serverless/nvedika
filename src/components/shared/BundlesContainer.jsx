@@ -3,11 +3,11 @@ import style from "./BundlesContainer.module.scss";
 
 import ClipLoader from "react-spinners/BarLoader";
 
-import BundleContainer from "components/shared/BundleContainer";
-import { useBundleCourses } from "contexts/AllContexts";
+import BundleContainer from "@/components/shared/BundleContainer";
+import { useBundleCourses } from "@/contexts/AllContexts";
 import clsx from "clsx";
 import { ChevronDown } from "react-feather";
-import { data } from "data/data";
+import { data } from "@/data/data";
 
 export default function BundlesContainer(props) {
   const { showHeadingSlide, type, allowSwipe } = props.options;

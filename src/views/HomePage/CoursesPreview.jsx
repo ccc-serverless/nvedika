@@ -69,7 +69,7 @@ export default function CoursePreview() {
               <img src={_TypeItImages[iterator]} alt="" />
             </animated.div>
           ))} */}
-          <p>Jayaho helps you build strong</p>
+          <p>Nvedika helps you build strong</p>
 
           <Typewriter loop={true} words={_TypeItStrings} onType={handleType} />
         </div>

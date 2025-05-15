@@ -23,13 +23,13 @@ export default function GlassModal(props) {
 
             {props.type === "school-reg" ? (
               <div className={style.steps}>
-                <p>Enquire about Jayaho School Registrations</p>
+                <p>Enquire about Nvedika School Registrations</p>
               </div>
             ) : (
               <>
                 {props.data.sidebarSteps && (
                   <div className={style.steps}>
-                    <p>Team Jayaho brings you a Hackathon For Next Gen Kids</p>
+                    <p>Team Nvedika brings you a Hackathon For Next Gen Kids</p>
                   </div>
                 )}
               </>
