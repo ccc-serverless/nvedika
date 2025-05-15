@@ -1,0 +1,128 @@
+@import "~utils/colors.scss";
+
+.footerWrapper {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #6a2c70;
+    padding: 0 80px;
+    padding-top: 35px;
+    margin-top: auto;
+    flex-wrap: wrap;
+    .logo {
+        width: 100px;
+        cursor: pointer;
+        img {
+            width: 100%;
+        }
+    }
+    .midFooter {
+        display: flex;
+        .section {
+            margin: 0 20px;
+            .heading {
+                color: $white;
+                font-size: 14px;
+                font-weight: 600;
+                text-transform: uppercase;
+                letter-spacing: 0.7px;
+                margin-bottom: 10px;
+                cursor: pointer;
+            }
+            .children {
+                p {
+                    cursor: pointer;
+                    font-size: 14px;
+                    text-align: left;
+                    color: $white;
+                    margin-bottom: 10px;
+                }
+            }
+        }
+    }
+    .socialWrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        p {
+            color: $white;
+            font-size: 14px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.7px;
+            margin-bottom: 10px;
+        }
+        .socialLinks {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            .socialLink {
+                cursor: pointer;
+                margin: 0 10px;
+                img {
+                    width: 20px;
+                }
+            }
+        }
+    }
+    .copyrightWrapper {
+        flex-basis: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        p {
+            font-size: 14px;
+            color: $white;
+            &:first-child {
+                margin-right: 50px;
+            }
+            a {
+                font-size: 14px;
+                font-weight: bold;
+                color: $white;
+                margin-left: 5px;
+            }
+        }
+    }
+}
+
+@media (max-width: 900px) {
+    .footerWrapper {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        position: relative;
+        padding: 0 20px;
+        padding-top: 40px;
+        .logo {
+            margin-bottom: 40px;
+        }
+        .midFooter {
+            width: fit-content;
+            margin: 0 auto;
+            flex-wrap: wrap;
+            // justify-content: center;
+            .section {
+                width: 140px;
+                margin-right: 0;
+                margin-bottom: 60px;
+            }
+        }
+        .socialWrapper {
+            margin-bottom: 60px;
+        }
+        .copyrightWrapper {
+            flex-direction: column;
+            text-align: center;
+            p {
+                margin-bottom: 40px;
+                &:first-child {
+                    margin-right: 0;
+                }
+            }
+        }
+    }
+}
