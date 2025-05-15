@@ -18,6 +18,8 @@ import potential2 from "@/assets/images/landing/home/potential2.jpg";
 import bgright from "@/assets/images/landing/home/bgright.png";
 import bgleft from "@/assets/images/landing/home/bgleft.png";
 
+import { Link } from "react-router-dom";
+
 import BiharHackImg from "@/assets/images/bihar_hack_banner.png";
 // import clsx from "clsx";
 
@@ -91,12 +93,14 @@ export default function Hero() {
               className={style.mobileImage}
               onClick={handleClickHackathonBanner}
             >
-              <img src={BiharHackImg} alt="" />
+              {/* <img src={BiharHackImg} alt="" /> */}
             </div>
 
             <div className={style.ctas}>
-              <button className={`${style.solid} bg-white`}>know more</button>
-              <button className={style.hollow}>view courses</button>
+              {/* <button className={`${style.solid} bg-white`}>know more</button> */}
+              <Link to="/courses">
+                <button className={style.hollow}>view courses</button>
+              </Link>
               {/* <HashLink
                 smooth
                 to={"#roadmap"}

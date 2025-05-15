@@ -34,9 +34,7 @@ export default function Banner() {
             <div> Prepare yourself for an </div>
             <div>
               Extraordinary Future
-              <span>
-                <img src={rocket} alt="rocket-graphic" />
-              </span>
+              <span>{/* <img src={rocket} alt="rocket-graphic" /> */}</span>
             </div>
           </div>
         </div>

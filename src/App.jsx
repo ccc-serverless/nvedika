@@ -1,7 +1,7 @@
 import React, { lazy } from "react";
 import "./App.css";
 import { BundleCoursesContextProvider } from "@/contexts/BundleCoursesContext";
-import { BrowserRouter as Router } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import "swiper/css"; // Core Swiper
 import "swiper/css/pagination"; // Pagination module
@@ -17,7 +17,10 @@ function App() {
     <>
       <BundleCoursesContextProvider>
         <Router>
-          <Courses />
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/courses" element={<Courses />} />
+          </Routes>
         </Router>
       </BundleCoursesContextProvider>
     </>
