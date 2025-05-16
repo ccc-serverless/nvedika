@@ -10,7 +10,7 @@ import slide1 from "@/assets/images/landing/slide1.svg";
 import slide4 from "@/assets/images/landing/slide4.svg";
 
 import odishaHack from "@/assets/images/courses/jayaho_4.png";
-import BiharHackImg from "@/assets/images/bihar_hack_banner.png";
+import roadmap from "@/assets/images/roadmap.png";
 
 import useStore from "@/stores/AppStore";
 
@@ -50,20 +50,20 @@ export default function Banner() {
               disableOnInteraction: true,
             }}
           >
-            {/* <SwiperSlide>
+            <SwiperSlide>
               <div
                 onClick={onClick}
                 style={{ cursor: "pointer" }}
-                className={styles.slide}
+                // className={styles.slide}
               >
-                <img src={BiharHackImg} alt="" />
+                <img src={roadmap} alt="" />
               </div>
-            </SwiperSlide> */}
-            <SwiperSlide>
+            </SwiperSlide>
+            {/* <SwiperSlide>
               <div className={styles.slide}>
                 <img src={slide1} alt="" />
               </div>
-            </SwiperSlide>
+            </SwiperSlide> */}
           </Swiper>
         </div>
       </div>

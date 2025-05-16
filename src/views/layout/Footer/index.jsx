@@ -1,16 +1,16 @@
 import React, { useEffect, useState } from "react";
 import styles from "./index.module.scss";
 
-import { HashLink } from "react-router-hash-link";
+// import { HashLink } from "react-router-hash-link";
 import { useLocation, useNavigate } from "react-router-dom";
 
-import logo from "assets/images/landing/logo.png";
-import fbdark from "assets/images/landing/facebook.svg";
-import insta from "assets/images/landing/instagram.svg";
-import twitter from "assets/images/landing/twitter.svg";
-import links from "utils/links.json";
+import logo from "@/assets/images/landing/logo.png";
+import fbdark from "@/assets/images/landing/facebook.svg";
+import insta from "@/assets/images/landing/instagram.svg";
+import twitter from "@/assets/images/landing/twitter.svg";
+import links from "@/utils/links.json";
 
-import { useBundleCourses } from "contexts/AllContexts";
+import { useBundleCourses } from "@/contexts/AllContexts";
 
 const LINKS = [
   {
@@ -92,7 +92,7 @@ const Footer = () => {
       </div>
       <div className={styles.midFooter}>
         {LINKS.map((link, index) => (
-          <div key={index} className={styles.section} key={link.heading}>
+          <div key={index} className={styles.section}>
             <p
               className={styles.heading}
               onClick={linkTypeCheck.bind(this, link)}
@@ -149,9 +149,9 @@ const Footer = () => {
         </div>
       </div>
       <div className={styles.copyrightWrapper}>
-        <p>Copyright © 2021 Nvedika.com</p>
+        <p>Copyright © {new Date().getFullYear()} nvedika.com</p>
         <p>
-          Contact: <a href="mailto:namaste@jayaho.io">namaste@jayaho.io</a>
+          Contact: <a href="mailto:info@nvedika.com">info@nvedika.com</a>
         </p>
       </div>
     </div>

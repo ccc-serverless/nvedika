@@ -43,7 +43,7 @@ export default function TermsConditionsIndex() {
             Think & Learn Pvt Ltd is located at – Address :The Hive, Corporate
             Capital,Financial District, Hyderabad,Telangana – 500032,India.
             <br></br>Email:{" "}
-            <a href="mailto:namaste@jayaho.io">namaste@jayaho.io</a>
+            <a href="mailto:info@nvedika.com">info@nvedika.com</a>
             <br></br>
             Website: <a href="https://jayaho.school">https://jayaho.school</a>
           </p>

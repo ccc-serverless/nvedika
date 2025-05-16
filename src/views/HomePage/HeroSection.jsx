@@ -21,6 +21,7 @@ import bgleft from "@/assets/images/landing/home/bgleft.png";
 import { Link } from "react-router-dom";
 
 import BiharHackImg from "@/assets/images/bihar_hack_banner.png";
+import roadmap from "@/assets/images/roadmap.png";
 // import clsx from "clsx";
 
 /*Constants */
@@ -93,7 +94,7 @@ export default function Hero() {
               className={style.mobileImage}
               onClick={handleClickHackathonBanner}
             >
-              {/* <img src={BiharHackImg} alt="" /> */}
+              <img src={roadmap} alt="" />
             </div>
 
             <div className={style.ctas}>
@@ -137,14 +138,10 @@ export default function Hero() {
               </button>
             </div>
           </div>
+          <img src={roadmap} alt="roadmap" className="w-[500px]" />
 
-          {/* <div
-            className={style.image}
-            onClick={() => {
-              window.open("https://pages.razorpay.com/jayaho-bihar-hackathon");
-            }}
-          >
-            <img src={BiharHackImg} alt="" />
+          {/* <div className={style.image}>
+            <img src={roadmap} alt="roadmap" className="w-[500px]" />
           </div> */}
         </div>
 

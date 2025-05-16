@@ -28,10 +28,10 @@ const _NavLinks = [
     name: "Courses",
     link: "/courses",
   },
-  {
-    name: "Future Skills",
-    link: "/future-skills",
-  },
+  // {
+  //   name: "Future Skills",
+  //   link: "/future-skills",
+  // },
 ];
 
 export default function NavbarDark() {
@@ -175,9 +175,10 @@ export default function NavbarDark() {
                 styles.login,
                 invertNavbar && styles.invertButton
               )}
-              onClick={handleLoginModal}
+              onClick={() => (window.location.href = "mailto:info@nvedika.com")}
+              // onClick={handleLoginModal}
             >
-              Log In / Sign Up
+              Contact Us
             </button>
           </div>
         </div>
@@ -221,8 +222,13 @@ export default function NavbarDark() {
                 );
               })}
               <div className={styles.nav}>
-                <button className={styles.login} onClick={handleLoginModal}>
-                  Log In / Sign Up
+                <button
+                  className={styles.login}
+                  onClick={() =>
+                    (window.location.href = "mailto:info@nvedika.com")
+                  }
+                >
+                  Contact Us
                 </button>
               </div>
             </div>

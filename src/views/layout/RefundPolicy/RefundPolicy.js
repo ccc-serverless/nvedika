@@ -16,16 +16,16 @@ export default function RefundPolicy() {
           <p>
             The amount of refund payable shall only be limited to the amount
             paid by the customer for services which were not rendered to the
-            customer by JAYAHO. In case of refund of EMI transactions, customers
-            will be charged interest & foreclosure charges as per bank or
-            lending partners’ terms and conditions which the customer may have
-            agreed to. Further the deduction shall be made towards the value of
-            any cashback, discounts or rewards, including vouchers (if
+            customer by nvedika. In case of refund of EMI transactions,
+            customers will be charged interest & foreclosure charges as per bank
+            or lending partners’ terms and conditions which the customer may
+            have agreed to. Further the deduction shall be made towards the
+            value of any cashback, discounts or rewards, including vouchers (if
             applicable).
           </p>
           <p>
             A refund request will be deemed valid only if it is made through an
-            email to namaste@jayaho.io, for registering the refund request,
+            email to info@nvedika.com, for registering the refund request,
             within 45 (forty Five) calendar days from the payment date (“Payment
             Date”). It is clarified that no refunds shall be processed for the
             refund request made after 45 (forty five) days from the Payment
@@ -41,8 +41,8 @@ export default function RefundPolicy() {
           <p>
             We aim to process and refund requests within 7-10 business days of
             receiving the request.If request is made as per our refund policy
-            However, if there is a delay, please notify us at namaste@jayaho.io
-            . During the refund process, we may request that you validate key
+            However, if there is a delay, please notify us at info@nvedika.com .
+            During the refund process, we may request that you validate key
             information required to process your refund.
           </p>
         </div>
