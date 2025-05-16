@@ -87,7 +87,7 @@ export default function Hero() {
                 🚀
               </span>
             </p>
-            <p className={style.subheading}>Faster & Better with Jayaho</p>
+            {/* <p className={style.subheading}>Faster & Better with Jayaho</p> */}
 
             <div
               className={style.mobileImage}
