@@ -5,7 +5,7 @@ import HeroSection from "./HeroSection";
 
 export default function HomePageIndex() {
   return (
-    <div className={styles.wrapper}>
+    <div>
       <HeroSection />
 
       {/* <Roadmap /> */}

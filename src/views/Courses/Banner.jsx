@@ -52,7 +52,6 @@ export default function Banner() {
           >
             <SwiperSlide>
               <div
-                onClick={onClick}
                 style={{ cursor: "pointer" }}
                 // className={styles.slide}
               >

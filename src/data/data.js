@@ -2,6 +2,22 @@ import salesforceBanner from "../assets/images/courses/salesforce-banner.png";
 import servicenowBanner from "../assets/images/courses/servicenow-banner.png";
 import awsBanner from "../assets/images/courses/aws-banner.png";
 import fortinet from "../assets/images/courses/fortinet-banner.png";
+import sfCertiOne from "../assets/images/courses/sf-certi-one.png";
+import sfCertiTwo from "../assets/images/courses/sf-certi-two.png";
+import sfCertiThree from "../assets/images/courses/sf-certi-three.png";
+
+import awsCertiOne from "../assets/images/courses/aws-certi-one.png";
+import awsCertiTwo from "../assets/images/courses/aws-certi-two.png";
+import awsCertiThree from "../assets/images/courses/aws-certi-three.png";
+
+import snCertiTwo from "../assets/images/courses/sn-certi-two.png";
+import snCertiThree from "../assets/images/courses/sn-certi-three.png";
+
+import fortinetCertiOne from "../assets/images/courses/fortinet-certi-one.png";
+import fortinetCertiTwo from "../assets/images/courses/fortinet-certi-two.png";
+import fortinetCertiThree from "../assets/images/courses/fortinet-certi-three.png";
+import fortinetCertiFour from "../assets/images/courses/fortinet-certi-four.png";
+import fortinetCertiFive from "../assets/images/courses/fortinet-certi-five.png";
 
 export const data = {
   all: [
@@ -10,7 +26,7 @@ export const data = {
       name: "Salesforce",
       order: 1,
       status: 1,
-      colorTheme: "#1176ae",
+      colorTheme: "#280F8F",
       levelImgUrl: salesforceBanner,
       backgroundColor: "rgba(17, 118, 174, 0.1)",
       type: "COURSES",
@@ -22,8 +38,7 @@ export const data = {
           course_link:
             "https://drive.google.com/file/d/1uz8FEuAqYDpIKwFvfpJqmjy4_NyQZ2Sl/view",
           bundle: "63e49996caab6b501a9dcb9f",
-          img_url:
-            "https://jayaho-lms-public.s3.ap-south-1.amazonaws.com/course-608d976b5266a911a12965f4.png",
+          img_url: sfCertiOne,
         },
         {
           _id: "606d97f8c2e3de2e66ed318a",
@@ -31,8 +46,7 @@ export const data = {
           course_link:
             "https://drive.google.com/file/d/1rt-6hWE8aU-aiybPYTBXCxQVyqOsn_jV/view",
           bundle: "63e49996caab6b501a9dcb9f",
-          img_url:
-            "https://jayaho-lms-public-production.s3.ap-south-1.amazonaws.com/course-606d97f8c2e3de2e66ed318a.png",
+          img_url: sfCertiTwo,
         },
         {
           _id: "606ddfb8783dab59377d6e45",
@@ -40,8 +54,7 @@ export const data = {
           bundle: "63e49996caab6b501a9dcb9f",
           course_link:
             "https://drive.google.com/file/d/1GkTz2U6t5TV2e0fy1aeSKu7zTHLNtc0y/view",
-          img_url:
-            "https://jayaho-lms-public-production.s3.ap-south-1.amazonaws.com/course-606ddfb8783dab59377d6e45.png",
+          img_url: sfCertiThree,
         },
       ],
     },
@@ -50,7 +63,7 @@ export const data = {
       name: "Service Now",
       order: 2,
       status: 0,
-      colorTheme: "#ea4335",
+      colorTheme: "#537568",
       levelImgUrl: servicenowBanner,
       backgroundColor: "rgba(17, 118, 174, 0.1)",
       type: "COURSES",
@@ -58,13 +71,12 @@ export const data = {
       courses: [
         {
           _id: "606dd46a8655da5146199d21",
-          name: "ServiceNow - Certified System Administrator",
+          name: "ServiceNow - Fundamentals",
           course_link:
             "https://learning.servicenow.com/lxp/en/credentials?id=kb_article_view&sys_kb_id=8e85a58f97e5a5507f7070871153af38",
           bundle: "63e49a07caab6b501a9dcba0",
 
-          img_url:
-            "https://jayaho-lms-public-production.s3.ap-south-1.amazonaws.com/course-606dd46a8655da5146199d21.png",
+          img_url: snCertiTwo,
         },
         {
           _id: "60f92f6209a56f1c247fa51c",
@@ -72,8 +84,7 @@ export const data = {
           course_link:
             "https://learning.servicenow.com/lxp/en/credentials?id=kb_article_view&sys_kb_id=8e85a58f97e5a5507f7070871153af38",
           bundle: "63e49a07caab6b501a9dcba0",
-          img_url:
-            "https://jayaho-lms-public-production.s3.ap-south-1.amazonaws.com/course-60f92f6209a56f1c247fa51c.png",
+          img_url: snCertiTwo,
         },
         {
           _id: "60a51ee39e4b20246babb9c5",
@@ -81,8 +92,7 @@ export const data = {
           course_link:
             "https://learning.servicenow.com/lxp/en/credentials?id=kb_article_view&sys_kb_id=1052565087792910bfe94088dabb35b6",
           bundle: "63e49a07caab6b501a9dcba0",
-          img_url:
-            "https://jayaho-lms-public-production.s3.ap-south-1.amazonaws.com/course-60a51ee39e4b20246babb9c5.png",
+          img_url: snCertiThree,
         },
       ],
     },
@@ -91,7 +101,7 @@ export const data = {
       name: "AWS",
       order: 3,
       status: 0,
-      colorTheme: "#f46c30",
+      colorTheme: "#1176AE",
       levelImgUrl: awsBanner,
       backgroundColor: "rgba(17, 118, 174, 0.1)",
       type: "COURSES",
@@ -103,8 +113,7 @@ export const data = {
           bundle: "63e49a48caab6b501a9dcba1",
           course_link:
             "https://drive.google.com/file/d/18Nn-Y3wLWFDsRiXCcXH2hSEiEK_KJ-Nt/view",
-          img_url:
-            "https://jayaho-lms-public-production.s3.ap-south-1.amazonaws.com/course-60a89401ff4ca91573480eb2_new.png",
+          img_url: awsCertiOne,
           bundleName: "Coding",
         },
         {
@@ -136,8 +145,7 @@ export const data = {
             short:
               "Explore usage of natural language to solve problem sequentially",
           },
-          img_url:
-            "https://jayaho-lms-public-production.s3.ap-south-1.amazonaws.com/course-60a51f519e4b20246babb9c6.png",
+          img_url: awsCertiTwo,
           status: 0,
           priceCurrency: "USD",
           isActive: true,
@@ -149,8 +157,7 @@ export const data = {
           bundle: "63e49a48caab6b501a9dcba1",
           course_link:
             "https://drive.google.com/file/d/1Vfn_iNWlM9cy7tst1jZm5DY9FNlFVrzu/view",
-          img_url:
-            "https://jayaho-lms-public-production.s3.ap-south-1.amazonaws.com/course-606dd4088655da5146199d20.png",
+          img_url: awsCertiThree,
         },
       ],
     },
@@ -159,7 +166,7 @@ export const data = {
       name: "Fortinet Courses",
       order: 4,
       status: 0,
-      colorTheme: "#6a2c70",
+      colorTheme: "#2D2D2D",
       levelImgUrl: fortinet,
       backgroundColor: "rgba(17, 118, 174, 0.1)",
       type: "COURSES",
@@ -171,8 +178,7 @@ export const data = {
           bundle: "63e49a76caab6b501a9dcba2",
           course_link:
             "https://training.fortinet.com/local/staticpage/view.php?page=fcf_cybersecurity",
-          img_url:
-            "https://jayaho-lms-public-production.s3.ap-south-1.amazonaws.com/course-60f932acd8fb5a21b527ef3f.png",
+          img_url: fortinetCertiOne,
           status: 0,
           priceCurrency: "USD",
           isActive: true,
@@ -184,8 +190,7 @@ export const data = {
           bundle: "63e49a76caab6b501a9dcba2",
           course_link:
             "https://training.fortinet.com/local/staticpage/view.php?page=fca_cybersecurity",
-          img_url:
-            "https://jayaho-lms-public-production.s3.ap-south-1.amazonaws.com/course-60f932d7d8fb5a21b527ef40.png",
+          img_url: fortinetCertiTwo,
         },
         {
           _id: "60f932e5d8fb5a21b527ef41",
@@ -193,8 +198,7 @@ export const data = {
           bundle: "63e49a76caab6b501a9dcba2",
           course_link:
             "https://training.fortinet.com/local/staticpage/view.php?page=fcp_security_operations",
-          img_url:
-            "https://jayaho-lms-public-production.s3.ap-south-1.amazonaws.com/course-60f932e5d8fb5a21b527ef41.png",
+          img_url: fortinetCertiThree,
         },
         {
           _id: "60f932e5d8fb5a21b527ef42",
@@ -202,8 +206,7 @@ export const data = {
           bundle: "63e49a76caab6b501a9dcba2",
           course_link:
             "https://training.fortinet.com/local/staticpage/view.php?page=fcss_security_operations",
-          img_url:
-            "https://jayaho-lms-public-production.s3.ap-south-1.amazonaws.com/course-60f932e5d8fb5a21b527ef41.png",
+          img_url: fortinetCertiFour,
         },
         {
           _id: "60f932e5d8fb5a21b527ef43",
@@ -211,8 +214,7 @@ export const data = {
           bundle: "63e49a76caab6b501a9dcba2",
           course_link:
             "https://training.fortinet.com/local/staticpage/view.php?page=fcx_cybersecurity",
-          img_url:
-            "https://jayaho-lms-public-production.s3.ap-south-1.amazonaws.com/course-60f932e5d8fb5a21b527ef41.png",
+          img_url: fortinetCertiFive,
         },
       ],
     },

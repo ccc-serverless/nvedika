@@ -79,7 +79,7 @@ export default function Hero() {
       <img className={style.bgright} src={bgright} alt="" />
       <img className={style.bgleft} src={bgleft} alt="" />
 
-      <div className={style.maxWidthContainer}>
+      <div className={`${style.maxWidthContainer} min-h-screen`}>
         <div className={style.hero}>
           <div className={style.text}>
             <p className={style.heading}>
@@ -145,7 +145,7 @@ export default function Hero() {
           </div> */}
         </div>
 
-        <div className={style.statsContainer}>
+        {/* <div className={style.statsContainer}>
           <div className={style.heading}>
             We’re building the problem solving playground for future
             <div
@@ -201,7 +201,7 @@ export default function Hero() {
               </Swiper>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );

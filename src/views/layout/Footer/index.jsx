@@ -149,7 +149,7 @@ const Footer = () => {
         </div>
       </div>
       <div className={styles.copyrightWrapper}>
-        <p>Copyright © {new Date().getFullYear()} nvedika.com</p>
+        <p>copyright © {new Date().getFullYear()} nvedika.com</p>
         <p>
           Contact: <a href="mailto:info@nvedika.com">info@nvedika.com</a>
         </p>
