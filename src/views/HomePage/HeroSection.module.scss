@@ -1,4 +1,4 @@
-@import "../../utils/colors.scss";
+@import "@/utils/colors.scss";
 .wrapper {
   width: 100%;
   margin: 0 auto;
@@ -15,6 +15,7 @@
     position: absolute;
     width: 265px;
     mix-blend-mode: screen !important;
+    z-index: 10;
   }
   .bgright {
     right: 0;
@@ -30,6 +31,8 @@
     margin: 0 auto;
     padding-top: 220px;
     padding-bottom: 200px;
+    position: relative;
+    z-index: 100;
     .hero {
       display: flex;
       justify-content: space-between;
@@ -316,7 +319,7 @@
 
 @media (max-width: 900px) {
   .wrapper {
-    background: url(../../@/assets/images/landing/home/mobilebgtransparent.svg),
+    background: url(@/assets/images/landing/home/mobilebgtransparent.svg),
       linear-gradient(to bottom, #45084a, #653569, #704474, #c4acc7, #fff);
     // background-position-y: -80px;
     background-repeat: no-repeat;
